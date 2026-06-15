@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Johanna Jane Camus - Full-stack Developer Portfolio"
+    />
+    <title>Johanna Jane Camus | Portfolio Website | Full-stack Developer</title>
+    <meta name="description" content="Johanna Jane Camus - Full-stack Developer Portfolio" />
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="Johanna Jane Camus | Portfolio" />
+    <meta itemprop="description" content="Johanna Jane Camus - Full-stack Developer Portfolio" />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://derf567.github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Johanna Jane Camus | Portfolio" />
+    <meta property="og:description" content="Johanna Jane Camus - Full-stack Developer Portfolio" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Johanna Jane Camus | Portfolio" />
+    <meta name="twitter:description" content="Johanna Jane Camus - Full-stack Developer Portfolio" />
+    <script>
+      // GitHub Pages SPA redirect handler
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+            l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location));
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
