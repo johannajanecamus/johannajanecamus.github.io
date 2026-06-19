@@ -58,7 +58,7 @@ const Resume = () => {
       addCenteredText("Full Stack Developer | Computer Science Student", 11, "normal");
       y += 2;
       pdf.setFontSize(9);
-      const contact = "johannajanecamus@gmail.com • derf567.github.io";
+      const contact = "johannajanecamus@gmail.com • johannajanecamus.github.io";
       const contactWidth = pdf.getTextWidth(contact);
       pdf.text(contact, (pageWidth - contactWidth) / 2, y);
       y += 6;
@@ -256,7 +256,7 @@ const Resume = () => {
               <h1 className="text-3xl font-bold mb-1">JOHANNA JANE CAMUS</h1>
               <p className="text-base text-gray-600 mb-2">Full Stack Developer | Computer Science Student</p>
               <p className="text-sm">
-                johannajanecamus@gmail.com • derf567.github.io
+                johannajanecamus@gmail.com • johannajanecamus.github.io
               </p>
             </div>
 
