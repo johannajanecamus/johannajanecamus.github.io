@@ -3,6 +3,7 @@ import velocityRental from "@/assets/Projects/velocity_rental.png";
 import jlmLights from "@/assets/Projects/jlm_lights.png";
 import acgPharma from "@/assets/Projects/acg_pharma.png";
 import villaRosal from "@/assets/Projects/villa_rosal.png";
+import jcesPta from "@/assets/Projects/jces_pta.png";
 
 export interface ProjectProps {
   imgPath: string;
@@ -17,6 +18,17 @@ export interface ProjectProps {
 }
 
 export const projects: ProjectProps[] = [
+  {
+    imgPath: jcesPta,
+    isBlog: false,
+    title: "JCES PTA & Project Management System",
+    description:
+      "Built a web-based system that streamlines parent-student records, PTA project tracking, and financial transactions for school administrators and officials. Features secure role-based authentication granting tailored access to admins, parents, and school staff — ensuring data integrity and accountability across all operations.",
+    demoLink: "",
+    ghLink: "https://github.com/ItzRenzo/JCES-PTA-and-Project-Management-System",
+    order: 1,
+    skills: ["Web Development", "System Design", "Authentication", "Database"],
+  },
   {
     imgPath: dmsSurvey,
     isBlog: false,
