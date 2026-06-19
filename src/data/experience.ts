@@ -7,23 +7,13 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    company: "SPMC Hospital, Davao City",
-    position: "OJT Intern - Software Developer",
-    date: "2025 - Present",
-    responsibilities: [
-      "Developing a Hospital Referral System for all hospitals across Mindanao region",
-      "System currently undergoing pilot testing phase (March 2025)",
-      "Scheduled for 100% deployment and full implementation by April 2025",
-    ],
-  },
-  {
-    company: "Hall of Justice Project",
-    position: "Student Developer",
+    company: "JCES PTA & Project Management System",
+    position: "Web Developer",
     date: "2024",
     responsibilities: [
-      "Developed a local system for Hall of Justice (not published online)",
-      "Applied database management and programming skills in real-world scenario",
-      "Collaborated with team members on system design and implementation",
+      "Designed and developed a web-based management system that streamlines parent-student records, PTA project tracking, and financial transactions for school administrators and officials.",
+      "Implemented secure role-based authentication granting tailored access to admins, parents, and school staff — ensuring data integrity and accountability across all operations.",
+      "Collaborated with the team to deliver a full-stack solution aligned with the school's administrative workflows and reporting needs.",
     ],
   },
   {
@@ -31,9 +21,9 @@ const experiences: Experience[] = [
     position: "Web Developer",
     date: "2023 - Present",
     responsibilities: [
-      "Built multiple web projects including fashion blogs, restaurant websites, and educational resources",
-      "Developed responsive designs using HTML, CSS, and modern frameworks",
-      "Created wireframes and UI/UX designs for various client projects",
+      "Built multiple client websites including business landing pages, resort websites, car rental systems, and pharmaceutical pages using React and Tailwind CSS.",
+      "Developed responsive, accessible designs with modern JavaScript frameworks tailored to each client's branding and business goals.",
+      "Managed end-to-end delivery from wireframing and UI/UX design to deployment on platforms like Netlify.",
     ],
   },
 ];
